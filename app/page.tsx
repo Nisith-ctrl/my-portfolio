@@ -135,9 +135,23 @@ export default function Home() {
               <h4 className="text-xl font-bold mb-2 text-gray-200 group-hover:text-white transition-colors">
                 Intern @ Make It Viral Media & Technologies
               </h4>
-              <p className="text-gray-400 text-sm leading-relaxed">
-                Contributing as an intern, applying technical proficiency and supporting technology workflows in a professional, fast-paced media environment.
+              <p className="text-gray-400 text-sm leading-relaxed mb-3">
+                High-commitment daily internship focused on web development, CRM & AI automation, and data analytics. Actively contributing to real-world business growth through:
               </p>
+              <ul className="space-y-2 text-gray-400 text-sm list-none">
+                <li className="flex items-start gap-2 group/item">
+                  <span className="text-primary mt-0.5 group-hover/item:translate-x-1 transition-transform">▹</span> 
+                  <span>Developing web applications (Next.js) and automated lead generation systems.</span>
+                </li>
+                <li className="flex items-start gap-2 group/item">
+                  <span className="text-primary mt-0.5 group-hover/item:translate-x-1 transition-transform">▹</span> 
+                  <span>Implementing technical SEO and utilizing data analytics tools.</span>
+                </li>
+                <li className="flex items-start gap-2 group/item">
+                  <span className="text-primary mt-0.5 group-hover/item:translate-x-1 transition-transform">▹</span> 
+                  <span>Building professional discipline through rigorous daily project management.</span>
+                </li>
+              </ul>
             </div>
 
             <div className="group p-6 border border-white/10 bg-gradient-to-br from-white/5 to-transparent rounded-lg hover:border-primary/50 hover:-translate-y-1 hover:shadow-[0_0_20px_rgba(34,197,94,0.15)] transition-all duration-300">
